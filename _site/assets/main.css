@@ -45,7 +45,8 @@ main {
  */
 img {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  border-radius: 10px 10px 0 0; }
 
 /**
  * Figures
@@ -126,16 +127,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(960px - (30px * 2));
+  max-width: calc(960px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 960px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(960px - (30px));
+      max-width: calc(960px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -293,7 +294,7 @@ table {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -335,9 +336,68 @@ table {
   font-size: 24px; }
 
 /**
+ * Image grid
+ */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px; }
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0px; }
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+  border-radius: 0px 0px 0 0; }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%; } }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%; } }
+/**
+ * Blog content
+ */
+.blog-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  /* 5px rounded corners */ }
+
+/* On mouse-over, add a deeper shadow */
+.blog-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+/* Add some padding inside the card container */
+.blog-card-container {
+  padding: 2px 16px; }
+
+/**
+ * Blog grid
+ */
+.blog-grid-container {
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  /* 5px rounded corners */ }
+
+/**
  * Posts
  */
 .post-header {
+  margin-bottom: 30px; }
+
+.post-image {
   margin-bottom: 30px; }
 
 .post-title,
@@ -345,7 +405,7 @@ table {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 960px) {
     .post-title,
     .post-content h1 {
       font-size: 36px; } }
@@ -354,17 +414,17 @@ table {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 960px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 960px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 960px) {
       .post-content h4 {
         font-size: 18px; } }
 

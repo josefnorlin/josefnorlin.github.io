@@ -24,6 +24,7 @@ github_username:  josefnorlin
 instagram_username:  josefnorlin
 linkedin_username: josefnorlin
 twitter_username: josefnorlin
+show_excerpts: true
 
 # Build settings
 markdown: kramdown

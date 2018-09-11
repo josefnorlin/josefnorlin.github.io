@@ -12,20 +12,57 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+      {%- for post in site.posts -%}        
+      {%- if forloop.index == 1 -%} <!-- Check if first post, if so make it full width + excerpts -->
+
+      <div class="blog-card">
+        {%- if post.image -%}
+          <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">
         {%- endif -%}
-      </li>
+        <div class="blog-card-container">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </div>
+
+      </div>
+
+      <div class="blog-grid-container">
+
+      {%- else -%}
+          
+      {% assign loopindex = forloop.index0 | modulo: 4 %}
+      {%- if loopindex == 1 -%}<div class="row">{%- endif -%}
+      <div class="column">
+        {%- if post.image -%}
+        <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">
+        {%- else -%}
+        <div class="blog-card-container">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}       
+        </div>
+        {%- endif -%}<!-- if post.image END -->
+      </div> 
+      {%- if loopindex == 0 -%}</div>{%- endif -%}
+
+      {%- endif -%}
       {%- endfor -%}
+      </div>
     </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
