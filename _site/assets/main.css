@@ -45,8 +45,7 @@ main {
  */
 img {
   max-width: 100%;
-  vertical-align: middle;
-  border-radius: 10px 10px 0 0; }
+  vertical-align: middle; }
 
 /**
  * Figures
@@ -187,9 +186,8 @@ table {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
+  background: rgba(0, 0, 0, 0.5);
   position: relative; }
 
 .site-title {
@@ -312,8 +310,8 @@ table {
  * Page content
  */
 .page-content {
-  padding: 30px 0;
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+  margin-top: -56px; }
 
 .page-heading {
   font-size: 32px; }
@@ -336,35 +334,6 @@ table {
   font-size: 24px; }
 
 /**
- * Image grid
- */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 0px; }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 0px; }
-
-.column img {
-  margin-top: 0px;
-  vertical-align: middle;
-  border-radius: 0px 0px 0 0; }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%; } }
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%; } }
-/**
  * Blog content
  */
 .blog-card {
@@ -380,16 +349,8 @@ table {
 
 /* Add some padding inside the card container */
 .blog-card-container {
-  padding: 2px 16px; }
-
-/**
- * Blog grid
- */
-.blog-grid-container {
-  margin-top: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  /* 5px rounded corners */ }
+  padding: 2px 16px;
+  margin-bottom: 30px; }
 
 /**
  * Posts
@@ -427,6 +388,47 @@ table {
     @media screen and (max-width: 960px) {
       .post-content h4 {
         font-size: 18px; } }
+
+/**
+ * Blog grid
+ */
+.grid {
+  max-width: 1200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  /* 5px rounded corners */
+  overflow: hidden; }
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* ---- grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 25%; }
+
+.grid-item {
+  float: left;
+  background: #D26;
+  border-color: rgba(0, 0, 0, 0.5); }
+
+.grid-item--width2 {
+  width: 40%; }
+
+.grid-item--width3 {
+  width: 60%; }
+
+.grid-item--height2 {
+  height: 200px; }
+
+.grid-item--height3 {
+  height: 260px; }
+
+.grid-item--height4 {
+  height: 360px; }
 
 /**
  * Syntax highlighting styles
