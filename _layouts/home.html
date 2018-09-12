@@ -17,16 +17,13 @@ layout: default
 
           <div class="blog-card">
             {%- if post.image -%}
-              <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">
+              <div class="img-container">
+                <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">
+                <div class="post-date"><p>{{ post.date | date: "%B %e, %Y" }}</p></div>
+                <div class="post-title"><p>{{ post.title | escape }}</p></div>
+              </div>
             {%- endif -%}
             <div class="blog-card-container">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
               {%- if site.show_excerpts -%}
                 {{ post.excerpt }}
               {%- endif -%}
@@ -34,9 +31,11 @@ layout: default
 
           </div>
 
+          <span class="site-title">Earlier posts</span>&nbsp;&nbsp;Show all >>>
           <div class="grid">
 
         {%- else -%}
+
           <div class="grid-item">
             {%- if post.image -%}
             <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">

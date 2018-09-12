@@ -1,22 +1,31 @@
+@font-face {
+  font-family: "asphalt";
+  src: url("Asphalts-Brush.woff") format('woff');
+}
+
 /**
  * Site header
  */
 .site-header {
   // border-top: 5px solid $grey-color-dark;
   // border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
-  background: rgba(0, 0, 0, .5);
+  min-height: $spacing-unit * 1.45;
+  background: rgba(0, 0, 0, .7);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   // Positioning context for the mobile navigation icon
   position: relative;
+  z-index:3;
 }
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  font-weight: 100;
+  font-family: asphalt;
+  line-height: $base-line-height * $base-font-size * 1.8;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
+  font-size: 24pt;
+  // float: left;
 
   &,
   &:visited {
@@ -26,14 +35,16 @@
 
 .site-logo {
   width: 110px;
+  margin-left: 15px;
 }
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  margin-right: 15px;
+  line-height: $base-line-height * $base-font-size * 2;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -41,7 +52,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $background-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -182,7 +193,48 @@
 .page-content {
   // padding: $spacing-unit 0;
   flex: 1 0 auto;
-  margin-top: -$base-line-height * $base-font-size * 2.25 - 2;
+
+}
+
+
+/* Container holding the image and the text */
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top left text */
+.post-date {
+  margin-top: $base-line-height * $base-font-size * 1.8;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+/* Top left text */
+.post-date p {
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
+  opacity: 0.9;
+
+}
+
+/* Centered text */
+.post-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.post-title p {
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  opacity: 0.6;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
 .page-heading {
@@ -219,20 +271,41 @@
  */
 .blog-card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   transition: 0.3s;
+  background-color: #FFF;
+  margin-top: -$base-line-height * $base-font-size * 2 - 2;
   border-radius: 10px; /* 5px rounded corners */
 }
 
 /* On mouse-over, add a deeper shadow */
 .blog-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.12);
 }
 
 /* Add some padding inside the card container */
 .blog-card-container {
-  padding: 2px 16px;
+  padding: $spacing-unit 20%;
   margin-bottom: $spacing-unit;
+}
+
+.blog-card-container p::first-letter {
+  // line-height: 4 * $base-font-size;
+  // font-size: 2 * $base-font-size;
+  color: $brand-color;
+  float: left;
+  font-family: Georgia;
+  // font-size: $base-font-size;
+  // line-height: $base-font-size;
+  
+  float: left;
+  font-family: Georgia;
+  font-size: 70px;
+  line-height: 58px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 0px;
 }
 
 
@@ -296,10 +369,11 @@
 
  .grid {
   max-width: 1200px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 10px; /* 5px rounded corners */
+  border-radius: 10px 10px 0 0; /* 5px rounded corners */
   overflow: hidden;
 }
+
+
 
 /* clearfix */
 .grid:after {
@@ -318,9 +392,19 @@
 .grid-item {
   // height: 120px;
   float: left;
-  background: #D26;
   // border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
+  // border-radius: 0px;
+}
+
+.grid-item img {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.grid-item:hover img {
+  // height: 120px;
+  opacity: 0.5;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.12);
   // border-radius: 0px;
 }
 
