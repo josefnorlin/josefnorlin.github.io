@@ -20,8 +20,8 @@ qoute: >- # this means to ignore newlines until "baseurl:"
   "Some mistakes will be made along the way. That's good! Cause at least some decisions are being made along the way." ~ Steve Jobs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  josefnorlin
-instagram_username:  josefnorlin
+github_username: josefnorlin
+instagram_username: josefnorlin
 linkedin_username: josefnorlin
 twitter_username: josefnorlin
 show_excerpts: true
@@ -31,6 +31,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+disqus:
+  shortname: josefnorlin
 
   
 
