@@ -29,6 +29,7 @@ layout: default
               {%- if site.show_excerpts -%}
                 {{ post.excerpt }}
               {%- endif -%}
+              <center><a href="{{ post.url | relative_url }}">Read more >>></a></center>
             </div>
 
           </div>
@@ -38,7 +39,7 @@ layout: default
 
         {%- else -%}
 
-          <div class="grid-item">
+          <div class="grid-item {{ post.categories }}">
             {%- if post.image -%}
             <a class="post-link" href="{{ post.url | relative_url }}">
               <div class="img-container">

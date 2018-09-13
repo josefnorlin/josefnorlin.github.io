@@ -77,12 +77,13 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #00ffff;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
   a:visited {
-    color: #00b3b3; }
+    color: #00ffff; }
   a:hover {
     color: #111;
-    text-decoration: underline; }
+    text-decoration: none; }
   .social-media-list a:hover {
     text-decoration: none; }
     .social-media-list a:hover .username {
