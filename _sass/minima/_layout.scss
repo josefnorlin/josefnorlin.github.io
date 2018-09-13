@@ -126,7 +126,10 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
+  background: rgba(0, 0, 0, .7);
   padding: $spacing-unit 0;
+  color: $light-color;
+  font-weight: 100;
 }
 
 .footer-heading {
@@ -142,7 +145,6 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -346,6 +348,11 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
+}
+
+.post-container {
+  padding: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-content {

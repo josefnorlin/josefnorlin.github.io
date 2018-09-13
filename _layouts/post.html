@@ -9,14 +9,11 @@ layout: default
         <div class="img-container">
           <img src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title | escape }}" style="width:100%">
           <div class="post-date"><p>{{ page.date | date: "%B %e, %Y" }}</p></div>
-          
         </div>
       </a>
       {%- endif -%}
-      <div class="blog-card-container">
-        
-        {{ page.content }}
-      
+      <div class="post-container">
+          {{ page.content }}
       </div>
 
     </div>
