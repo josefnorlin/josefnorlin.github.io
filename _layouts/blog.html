@@ -3,14 +3,8 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
 
         <div id="archives">
@@ -22,15 +16,42 @@ layout: default
             
             <h3 class="category-head">{{ category_name }}</h3>
             <a name="{{ category_name | slugize }}"></a>
-            {% for post in site.categories[category_name] %}
-            <article class="archive-item">
-                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-            </article>
-            {% endfor %}
+              <div class="grid">
+              {% for post in site.categories[category_name] %}
+
+
+                <div class="grid-item {{ post.categories }}">
+                  {%- if post.image -%}
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                      <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">
+                    </a>
+                
+                  {%- else -%}
+                  <div class="blog-card">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h3>
+                      <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}  
+                      </a>
+                    </h3>
+                    {%- if site.show_excerpts -%}
+                      <div class="blog-card-container">
+                        {{ post.excerpt }}
+                      </div>
+                    {%- endif -%}       
+                  </div>
+                  {%- endif -%}
+                </div>
+      
+
+
+              {% endfor %}
+              </div>
             </div>
         {% endfor %}
         </div>
-    
+    <br>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 

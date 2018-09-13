@@ -224,6 +224,8 @@ table {
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
+  .site-nav .active {
+    color: #00ffff; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -324,8 +326,7 @@ table {
 /* Container holding the image and the text */
 .img-container {
   position: relative;
-  text-align: center;
-  color: white; }
+  text-align: center; }
 
 /* Top left text */
 .post-date {
@@ -339,18 +340,31 @@ table {
   letter-spacing: 1px;
   font-weight: 600;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  opacity: 0.9; }
+  opacity: 0.9;
+  color: white; }
 
-/* Top left text */
+/* Bottom right text */
 .post-categories {
   position: absolute;
-  bottom: 0px;
-  right: 16px; }
+  bottom: -6px;
+  right: 14px; }
 
 .post-categories p {
-  font-size: 12px; }
+  font-size: 12px;
+  color: white; }
+
+/* Bottom left text */
+.blog-post-title {
+  position: absolute;
+  bottom: -6px;
+  right: 14px; }
+
+.blog-post-categories p {
+  font-size: 12px;
+  color: white; }
 
 .page-heading {
+  margin-top: 37.8px;
   font-size: 28px; }
 
 .post-list-heading {
@@ -408,6 +422,7 @@ table {
  * Posts
  */
 .post-header {
+  margin-top: 37.8px;
   margin-bottom: 30px; }
 
 .post-image {
@@ -417,7 +432,8 @@ table {
 .post-content h1 {
   font-size: 36.75px;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+  font-family: asphalt; }
   @media screen and (max-width: 960px) {
     .post-title,
     .post-content h1 {

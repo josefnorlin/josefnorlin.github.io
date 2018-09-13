@@ -3,7 +3,25 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <div class="blog-card">
+      {%- if page.image -%}
+      <a class="post-link" href="{{ page.url | relative_url }}">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title | escape }}" style="width:100%">
+          <div class="post-date"><p>{{ page.date | date: "%B %e, %Y" }}</p></div>
+          
+        </div>
+      </a>
+      {%- endif -%}
+      <div class="blog-card-container">
+        
+        {{ page.content }}
+      
+      </div>
+
+    </div>
+
+  <!-- <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -21,7 +39,7 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-  </div>
+  </div> -->
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
