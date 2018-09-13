@@ -18,29 +18,40 @@ layout: default
 
     </div>
 
-  <!-- <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
-
-  <div class="post-image">
-      <img src="{{ site.baseurl }}/images/{{ page.image }}">
-  </div>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div> -->
-
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
+
+  <span class="site-title">Other posts</span>&nbsp;&nbsp;<a href="{{ post.url | relative_url }}">Show all >>></a>
+  <div class="grid">
+
+  {%- for post in site.posts -%}
+  <div class="grid-item {{ post.categories }}">
+    {%- if post.image -%}
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <div class="img-container">
+        <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title | escape }}" style="width:100%">
+        {%- if post.categories -%}
+        <div class="post-categories"><p>{{ post.categories }}</p></div>
+        {%- endif -%}
+      </div>
+    </a>
+    {%- else -%}
+    <div class="blog-card-container">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}       
+    </div>
+    {%- endif -%}
+  </div>
+  {%- endfor -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

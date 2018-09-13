@@ -4,7 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is my projects right now. Please contact me if anything seems interesting, or if there is anything you think I can help you with.
+
+![My helpful screenshot](/images/netlight.png)
+
+Netlight Consulting AB 
+
+ documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /

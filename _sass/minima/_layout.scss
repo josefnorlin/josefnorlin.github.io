@@ -281,6 +281,31 @@
 }
 
 
+/**
+ * Page content
+ */
+.page-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: 0.3s;
+  background-color: #FFF;
+  margin-top: -$base-line-height * $base-font-size * 2 - 2;
+  border-radius: 10px; /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+.page-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.12);
+}
+
+.page-container {
+  padding: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+.page-container img {
+  width: 300 px;
+}
 
 /**
  * Blog content
@@ -394,6 +419,7 @@
   max-width: 1200px;
   border-radius: 10px 10px 0 0; /* 5px rounded corners */
   overflow: hidden;
+  margin-bottom: $spacing-unit;
 }
 
 
