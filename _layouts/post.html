@@ -8,7 +8,7 @@ layout: default
       <a class="post-link" href="{{ page.url | relative_url }}">
         <div class="img-container">
           <img src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title | escape }}" style="width:100%">
-          <div class="post-date"><p>{{ page.date | date: "%B %e, %Y" }}</p></div>
+          <!-- <div class="post-date"><p>{{ page.date | date: "%B %e, %Y" }}</p></div> -->
         </div>
       </a>
       {%- endif -%}
@@ -17,6 +17,10 @@ layout: default
           {%- if site.disqus.shortname -%}
             {%- include disqus_comments.html -%}
           {%- endif -%}
+
+          <p align="right"><b>{{ site.author }}</b><br>
+          {{ page.date | date: "%B %e, %Y" }}</p>
+
       </div>
 
     </div>
