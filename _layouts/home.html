@@ -34,8 +34,10 @@ layout: default
 
           </div>
 
+          {%- if site.posts.size > 1 -%}
           <span class="site-title">Earlier posts</span>&nbsp;&nbsp;<a href="{{ post.url | relative_url }}">Show all >>></a>
           <div class="grid">
+          {%- endif -%}
 
         {%- else -%}
 
@@ -63,7 +65,9 @@ layout: default
               {%- endif -%}       
             </div>
             {%- endif -%}
-          </div>
+          {%- if site.posts.size > 1 -%}
+            </div>
+          {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
       </div>

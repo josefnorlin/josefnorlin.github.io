@@ -111,6 +111,13 @@
       display: block;
       padding: 5px 10px;
 
+      color: #000;
+    
+      &:visited {
+        color: #000;
+    
+      }
+
       &:not(:last-child) {
         margin-right: 0;
       }
@@ -189,6 +196,12 @@
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
+  .site-nav {
+    margin-top: -6px;
+  
+  }
+
+
 }
 
 
@@ -304,7 +317,11 @@
 }
 
 .page-container img {
-  width: 300 px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /**

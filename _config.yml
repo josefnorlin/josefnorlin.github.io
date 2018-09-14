@@ -35,6 +35,7 @@ plugins:
 disqus:
   shortname: josefnorlin
 
+google_analytics: UA-19141775-1
   
 
 # Exclude from processing.

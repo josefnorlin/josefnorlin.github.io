@@ -4,21 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
-This is my projects right now. Please contact me if anything seems interesting, or if there is anything you think I can help you with.
+Here's what I do. Please contact me if anything seems interesting or if there is anything you think I can help you with.
 
-![My helpful screenshot](/images/netlight.png)
+**Netlight Consulting AB** 
+[![Netlight Consulting AB logo](/images/netlight.png)
+](http://netlight.com)
+Maybe you haven't heard about us but we're the guys building solutions for IT leaders in Sweden focusing on competence, creativity and business sense. [Jump to Netlight.com](http://netlight.com)
 
-Netlight Consulting AB 
+**Tux4Ubuntu**
+ [![Tux4Ubuntu logo](/images/tux4ubuntu.png)
+](http://tux4ubuntu.org)
 
- documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+As a kid I liked the Linux penguin, Tux. Imagine my disappointment when I installed Red Hat (most popular Linux distribution back then) and didn't see the Linux Penguin anywhere. 15 years later I decided to do something about it and created the Tux4Ubuntu Initiative to bring Tux to the OSes he powers. Starting with Ubuntu I've created a boot selection, boot loader theme and bundled it with other Tux software in a simple bash-installer.  [Jump to Tux4Ubuntu.org](https://tux4ubuntu.org)
 
 
-[jekyll-organization]: https://github.com/jekyll

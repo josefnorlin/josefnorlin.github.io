@@ -261,7 +261,10 @@ table {
       .site-nav .page-link {
         display: block;
         padding: 5px 10px;
+        color: #000;
         margin-left: 20px; }
+        .site-nav .page-link:visited {
+          color: #000; }
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
 
@@ -318,7 +321,10 @@ table {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: calc(100% - (30px / 2)); }
+
+  .site-nav {
+    margin-top: -6px; } }
 /**
  * Page content
  */
@@ -407,7 +413,11 @@ table {
   margin-bottom: 30px; }
 
 .page-container img {
-  width: 300 px; }
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
 
 /**
  * Blog content
