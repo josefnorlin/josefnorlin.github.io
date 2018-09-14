@@ -76,11 +76,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #00ffff;
-  text-decoration: none;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+  color: #0cd7f5;
+  text-decoration: none; }
   a:visited {
-    color: #00ffff; }
+    color: #0cd7f5; }
   a:hover {
     color: #111;
     text-decoration: none; }
@@ -209,7 +208,8 @@ table {
 
 .site-logo {
   width: 110px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  margin-top: 2px; }
 
 .site-nav {
   float: right;
@@ -225,7 +225,7 @@ table {
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   .site-nav .active {
-    color: #00ffff; }
+    color: #0cd7f5; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -341,7 +341,7 @@ table {
   margin-top: 37.8px;
   position: absolute;
   top: 16px;
-  left: 16px; }
+  left: 17px; }
 
 /* Top left text */
 .post-date p {
@@ -437,11 +437,11 @@ table {
 
 /* Add some padding inside the card container */
 .blog-card-container {
-  padding: 30px 20%;
+  padding: 30px;
   margin-bottom: 30px; }
 
-.blog-card-container p::first-letter {
-  color: #00ffff;
+.blog-card-text-container:first-letter {
+  color: #0cd7f5;
   float: left;
   font-family: Georgia;
   float: left;

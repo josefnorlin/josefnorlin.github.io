@@ -36,6 +36,7 @@
 .site-logo {
   width: 110px;
   margin-left: 15px;
+  margin-top: 2px;
 }
 
 .site-nav {
@@ -227,7 +228,7 @@
   margin-top: $base-line-height * $base-font-size * 1.8;
   position: absolute;
   top: 16px;
-  left: 16px;
+  left: 17px;
 }
 
 /* Top left text */
@@ -343,11 +344,11 @@
 
 /* Add some padding inside the card container */
 .blog-card-container {
-  padding: $spacing-unit 20%;
+  padding: $spacing-unit;
   margin-bottom: $spacing-unit;
 }
 
-.blog-card-container p::first-letter {
+.blog-card-text-container:first-letter {
   // line-height: 4 * $base-font-size;
   // font-size: 2 * $base-font-size;
   color: $brand-color;

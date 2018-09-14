@@ -27,7 +27,9 @@ layout: default
             {%- endif -%}
             <div class="blog-card-container">
               {%- if site.show_excerpts -%}
+              <div class="blog-card-text-container">  
                 {{ post.excerpt }}
+              </div>
               {%- endif -%}
               <center><a href="{{ post.url | relative_url }}">Read more >>></a></center>
             </div>
