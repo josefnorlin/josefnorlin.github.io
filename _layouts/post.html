@@ -14,13 +14,12 @@ layout: default
       {%- endif -%}
       <div class="post-container">
           {{ page.content }}
+          {%- if site.disqus.shortname -%}
+            {%- include disqus_comments.html -%}
+          {%- endif -%}
       </div>
 
     </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
 
   <span class="site-title">Other posts</span>&nbsp;&nbsp;<a href="{{ post.url | relative_url }}">Show all >>></a>
   <div class="grid">
