@@ -13,14 +13,23 @@ layout: default
       </a>
       {%- endif -%}
       <div class="blog-card-container">
-          {{ page.content }}
+        <div class="row">
+          <div class="col-md-8">
+            <span class="site-title">{{ page.title }}</span>
+          </div>
+          <div class="col-md-4">
+            <div id="google_translate_element" align="right"></div>
+          </div>
+        </div>
 
-          <p align="right"><b>{{ site.author }}</b><br>
-            {{ page.date | date: "%B %e, %Y" }}</p>  
+        {{ page.content }}
 
-          {%- if site.disqus.shortname -%}
-            {%- include disqus_comments.html -%}
-          {%- endif -%}
+        <p align="right"><b>{{ site.author }}</b><br>
+          {{ page.date | date: "%B %e, %Y" }}</p>  
+
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
+        {%- endif -%}
       </div>
 
     </div>
