@@ -13,15 +13,10 @@ layout: default
       </a>
       {%- endif -%}
       <div class="blog-card-container">
-        <div class="row">
-          <div class="col-md-8">
-            <span class="site-title">{{ page.title }}</span>
-          </div>
-          <div class="col-md-4">
-            <div id="google_translate_element" align="right"></div>
-          </div>
-        </div>
 
+        <span class="site-title">{{ page.title }}</span>
+        <span style="float: right"><div id="google_translate_element"></div></span>
+      
         {{ page.content }}
 
         <p align="right"><b>{{ site.author }}</b><br>
