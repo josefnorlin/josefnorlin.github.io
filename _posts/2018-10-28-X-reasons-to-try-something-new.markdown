@@ -1,20 +1,38 @@
 ---
 layout: post
-title:  "10 Reasons Not To Buy an iPhone"
-date:   2018-09-28 13:00:00 +0200
+title:  "X Reasons To Try Something New"
+date:   2018-09-15 13:00:00 +0200
 categories: tech
-image:  2018-09-28-10-reasons-not-to-buy-an-iphone.markdown.png
+image:  2018-10-28-x-reasons-to-try-something-new.png
 comments: true
 ---
-Kommentera gärna! Jag ändrar mig gärna om jag har fel (om inte i denna guide så omvärderar jag alltid inför min nästa).
+Apple has done many things right and if you known me in my younger days you know I was always the biggest iPhone-promoter in any room. But people change and the iPhone hasn't! This is my honest opinions and please comment if you do not agree (or if Apple comes around on some of it let us know).
 
-Titel: 10 reason not to buy a new iPhone
-Kategori: Buyers guide
+## 1. Design
+![iPhone XS vs Samsung S9](/images/2018-09-28-iphone-xs-vs-samsung-s9.png)
+
+> iPhone Xs and Samsung S9 comparison, comment on which one you like
+
+Little over a year ago I sat at a cinema not suspecting anything. But there it was, it was this cinema ad with a phone viewing a film with a girl boxing and at a drum beat she boxes away the home-button of the phone. Next up is a drummer hitting away the side bezel and so forth. The Samsung Infinity Display looked stunning! For me, this was the moment the iPhone suddenly looked old. Then came the iPhone X. It was supposed to be this beautiful all-screen-device. But what's seen can't be unseen. Compared to the Samsung S8 the iPhone X looked like a bad attempt. Not only were the screen maxing out the space in the width, it included this huge notch at the top.
+
+[Samsung Breaking-Out ad](https://www.youtube.com/watch?v=uoBh24itPeM)
+
+## 2. Samsung Pay
+
+## 3. 
+
+## 2. Browsers
+But hey, looks isn't everything. But when I started comparing Android to iPhone I realized how locked in I had been. Looking over the fence I saw apps I could only dream of. Take the app I use the most on my phone, the browser. Even if I could install Chrome or Firefox on my iPhone, I couldn't set it as my default browser. That might seem like a small thing but it isn't. Once you start using Chrome for instance on all your devices, it speeds you up. You only need to login once to a website and it can be used on all your devices. Bookmarks and history it just follows you. You could say, yeah but you can use Safari and do the same. Yeah, if every computer you use is an Apple you're close to that experience. Only that you also need to set up your macOS user account to your Apple-ID something you often only have time to do on your own Mac. Using Chrome (or whatever browser you like) speeds up a lot, so it is a big issue if I can't open a URL in a link or e-mail in which browser I like.
+
+## 3. Connections
+USB-C + Headphone jack
 
 
-Android vs iOS
+. Later the same year Apple releases it's phone
 
-Design
+We all could  I don't think the Steve Jobs himself would let that thing pass 
+and image promoting the phone hides it pretty well with that black background image conveniently right where the notch is.
+
 Lpt oss bara direkt nämna elefanten i rummet, Apples iPhone Xs läpp! Alltså vad är grejen!? Den idén hade aldrig kommit igenom Steve Jobs granskning om han hade levat. Min teori är att de inte vågade kopiera Samsjnf för mycket då Samsung, enligt mig nu gått Apple som innovatör och teknisk ledare i mobilbransvhen. Det är lite pinsamt om man blir stämd av Samsung för att göra en liknand telefon som Samsungs (då den enligt mig är mycket renare i sin design) när man själv bara några år innan stämt Samsung för att kopiera sin design (och på den tiden var iPhone överlägsen både i utseende och funktion). Låt mig bara tipsa om den här reklamen som Samsung släppte samtidigt som deras S8:
 
 
@@ -30,7 +48,7 @@ de gör när man bara några år innan stämt
 
 ”Look up” vs Androids Google svreen
 
-Backup 
+## 2. Backup 
 iCloud med köp mer utrue somdelas med ananr. iExplrorer för 300 kr för att få ett normalt filformat som kan användas. Eller backup nöjd.
 
 
@@ -64,7 +82,7 @@ Headphine jack!
 Storlek 
 Plus eller inte
 
-Tangentbord
+## Tangentbord
 Bästa tangentbordet enligt mig är Googles! Men då på Android! De har för iPhone också men där kan man inte ha samma uppsättning för 2 olika språk. Man måste då hela tiden trycka på jordgloben för att byta till engelska när du skriver på engelska (har du dessutom många olika tangentbord - vilket du förmodligen har då du kanske inte tagit bort Apples standard tangentbord eller smileysarna - för varför skulle man det) så tar det ofta lång tid att byta fram och tillbaka mellan engelska och svenska t.ex. Enligt mig är detta ett genidrag från Google. Men det finns hopp, vill du få den funktionen jag pratar om kan du använda SwiftKey keyboard som jag är lite mer plottrigt än Googles Gboard (och ytterligare en part som får tillgång till allt du skriver och lösenord mm). Och det leder mig till min sista anledning varför jag inte klarar av att leva med Apples tangentbordslösningar. Om jag vill ha ett tangentbord där jag kan "swipa" över bokstäverna för att skriva hela ord, vilket sparar otroligt mycket tid, så måste jag välja ett tredjepartsprogram. Då kan man ju tänka, ja det är ju fine. Men när jag t.ex. spelar Arena of Valor (bästa mobilspelet enligt mig och hela Asien typ) och ska skriva något så ser jag att först så laddas Apples tangentbord (vilket förmodligen är ganska low-level kodat för att det ska fort att ladda) vilket gör att jag tappar värdefull tid att mitt valda tangentbord ska väljas. Men när jag försöker börja skriva på Apples tangentbord så händer ingenting, istället laddas mitt Gboard någon sekund efter och laddas mycket segare då det är mer avancerat (och förmodligen inte lika low-level kodat som det är på en Android). Gaaah! Varpå det jag skulle skriva är helt oaktuellt i sånt spel. Igen, varför Apple!? Har ni inte förstått att swipa på tangentbordet är det bästa? Jo, för det har ni. Men här passar det tydligen bra med att låta tredjepartstillverkare fixa era begränsingar för att ni ska hålla allt så simpelt. På en Android är "vanlig" tangentbordsskrivning standard, men det en enkel checkbox fungerar swipning (och det snabbt och på direkten!).
 
 
@@ -85,19 +103,19 @@ Gör om inköpslista till checklistor! Nå den öceröaslt!
 iCloud Mail vs Gmail
 !?!
 
-iMessage
+## iMessage
 Blå vs grön - bara problem för iPhone användare. Är precis som min fysiklärare sa om anti-reflexskyddet för glasögon. Du som använder det märker det inte men det är för alla andra som dina glasögon blänker. Jag tänker då inte betala extra för att smsen de skickar till mig ska bli blåa istället för gröna i DERAS telefoner. Nej, det här är faktiskt sätt försöka måla ut alla andra telefoner som sämre men medan de egentligen bara försämrar för sina egna kunder.
 
-Auto-korrektion
+## Auto-korrektion
 Finns det något störigare än skrivit rätt ord för att se att iOS ändrar ordet precis i det man trycker på sänd (haha, medan jag skrev detta ändrade iOS "sönd" till "söndag")? För er som inte testat Android så sker det på motsatt sätt där. Skriver jag "sönd" så får jag upp 3 förslag att välja mellan varav "sänd" var ett. Här har Apples idiotförklaring av användaren (vilket ofta är positiv då de iaf försöker skapa lättförståeliga lösningar) lett till att det blir otroligt irriterande för användaren. Sök bara på "autocorrect fails" får du se vilka problem det kan leda till.
 
-Sms-timer!
+## Sms-timer!
 Ja, jag fuskar! Ibland inser jag på kvällen något jag behöver smsa om imorgon. Eller på natten men vill inte visa mottagaren att jag skriver det jag skriver kl 04:07 på natten. Då finns det något som heter sms-timer appar! Den jag använder just nu heter xxx. Men, något liknande finns inte för iOS för den är för låst. Igen, en idiotförklaring både av utvecklare och användare där det gått för långt. Det enda du hittar på iOS som heter något liknande är en app där du kan skriva smset och sätta en timer för att mobilen sedan ska pipa och du fysiskt får klicka "skicka" först i appen, och sedan i iMessage appen. Inte direkt vad man vill göra kl 08:03 för att sjukskriva sig t.ex. om man legat vaken halva natten och spytt.
 
 Lösenordshantering
 
 
-iCloud vs. Google
+## iCloud vs. Google
 
 
 Appvyn
@@ -108,20 +126,20 @@ Apparna
 Tack för tillbaka knappen! Doesnt make Sense med tillbaka i vänstra övre hörnet på en iPhone plus!!!!
 
 
-Notifikationer!
+## Notifikationer!
 Bättre på android.
 Tips: remindlapparna! Finns inget liknande för iOS!
 
 Definiera vs Google
 Openelec exemplet! (Se bilden)
 
-Uppdateringar
+## Uppdateringar
 Android haft problem. Inte kunnat uppgradera tan sladd plus sega uppdateringar! MEN! Oreo! Köper du dessutom flaggskepp småbilen s9 och inre s9 Neo (Neo är) näst sår så är du sade. Väljs irller s8 istället för s8 Neo t.wx.
 
 Sidnot! Världen blir mer och diversifierad! Ingen kan vara bäst på allt längre. Det går inte att köpa alla sportsaker från Nike för North Face har bästa väskan, contigo bästa flaskan osv. Blev bara Nike skor och träningströka för min del! På samma sätt med teknik! Samsung och Google är ett underbart exempel på det! Dom gör det dom gör bäst och tillsammans skapar dom den bästa telefonen medan Apple vill ha hela kakan själv, lycka till! Sälj alla aktier i Apple är mitt tips!
 
 
-Androidtillverkare då?
+## Androidtillverkare då?
 Om du läst så här långt och håller med eller delvis håller med och inte har en uppfattning vilken Androidtelefon du ska välja så är du välkommen att läsa vidare.
 
 Det som är så häftigt med Android är att det finns så många möjligheter! Men det blir därför också svårt att välja. Här tycker jag man ska välja det som passar en själv men jag har listat lite fördelar och nackdelar med de enligt mig bästa alternativen (och igen, skriv gärna då jag omöjligt kan ha koll på den myriad av härliga Androidtelefoner det finns):
