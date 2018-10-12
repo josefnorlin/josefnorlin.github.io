@@ -437,7 +437,7 @@ table {
 
 /* Add some padding inside the card container */
 .blog-card-container {
-  padding: 30px;
+  padding: 30px 15% 30px 15%;
   margin-bottom: 30px; }
 
 .blog-card-text-container:first-letter {
@@ -463,37 +463,38 @@ table {
 .post-image {
   margin-bottom: 30px; }
 
-.post-title,
-.post-content h1 {
+.page-title,
+.page-content h1 {
   font-size: 36.75px;
   letter-spacing: -1px;
   line-height: 1;
   font-family: asphalt; }
   @media screen and (max-width: 960px) {
-    .post-title,
-    .post-content h1 {
+    .page-title,
+    .page-content h1 {
       font-size: 31.5px; } }
 
-.post-container {
+.page-container {
   padding: 30px;
   margin-bottom: 30px; }
 
-.post-content {
+.page-content {
   margin-bottom: 30px; }
-  .post-content h2 {
-    font-size: 28px; }
+  .page-content h2 {
+    font-size: 28px;
+    padding-top: 25px; }
     @media screen and (max-width: 960px) {
-      .post-content h2 {
+      .page-content h2 {
         font-size: 24.5px; } }
-  .post-content h3 {
+  .page-content h3 {
     font-size: 22.75px; }
     @media screen and (max-width: 960px) {
-      .post-content h3 {
+      .page-content h3 {
         font-size: 19.25px; } }
-  .post-content h4 {
+  .page-content h4 {
     font-size: 17.5px; }
     @media screen and (max-width: 960px) {
-      .post-content h4 {
+      .page-content h4 {
         font-size: 15.75px; } }
 
 /**

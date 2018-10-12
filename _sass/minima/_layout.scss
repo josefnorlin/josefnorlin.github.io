@@ -344,7 +344,7 @@
 
 /* Add some padding inside the card container */
 .blog-card-container {
-  padding: $spacing-unit;
+  padding: $spacing-unit 15% $spacing-unit 15%;
   margin-bottom: $spacing-unit;
 }
 
@@ -381,8 +381,8 @@
   margin-bottom: $spacing-unit;
 }
 
-.post-title,
-.post-content h1 {
+.page-title,
+.page-content h1 {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
@@ -393,20 +393,21 @@
   }
 }
 
-.post-container {
+.page-container {
   padding: $spacing-unit;
   margin-bottom: $spacing-unit;
 }
 
-.post-content {
+.page-content {
   margin-bottom: $spacing-unit;
 
   h2 {
     @include relative-font-size(2);
-
+    padding-top: 25px;
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
+
   }
 
   h3 {
@@ -424,7 +425,8 @@
       @include relative-font-size(1.125);
     }
   }
-  
+
+
 }
 
 
