@@ -439,6 +439,9 @@ table {
 .blog-card-container {
   padding: 30px 15% 30px 15%;
   margin-bottom: 30px; }
+  @media screen and (max-width: 600px) {
+    .blog-card-container {
+      padding: 30px 7% 30px 7%; } }
 
 .blog-card-text-container:first-letter {
   color: #0cd7f5;
