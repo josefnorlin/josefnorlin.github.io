@@ -90,7 +90,7 @@ When iCloud was first released I was stunned by its beauty. But it didn't take l
 
 
 ## 10. Better off alone?
-When I was out buying workout clothes I ended up buying a training bag from Under Armour, shoes from Nike and shorts from SOC. The sport clothes industry is diversified. No brand are superior at all categories which is why we choose the products we like the most in each category, not locked into a specific brand. I mean that the same should be true for mobile phones. Today each category of hardware, cloud and software are getting harder and harder to compete in. In an iPhone you get Apples take at all of those, but if you choose an Android phone you can choose the hardware, software, backup, assistants, app launchers etc that suits you.
+When I was out shopping for workout clothes I ended up buying a training bag from Under Armour, shoes from Nike and shorts from SOC. The sport clothes industry is diversified. No brand are superior at all categories which is why we choose the products we like the most in each category, not locked into a specific brand. I mean that the same should be true for mobile phones. Today each category of hardware, cloud and software are getting harder and harder to compete in. In an iPhone you get Apples take at all of those, but if you choose an Android phone you can choose the hardware, software, backup, assistants, app launchers etc that suits you.
 
 
 ![Leonardo approves of this message](/images/2018-10-12-leonardo-dicaprio.png)
