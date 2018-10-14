@@ -38,7 +38,7 @@ disqus:
   shortname: josefnorlin
 
 google_analytics: UA-19141775-1
-  
+permalink: /:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
