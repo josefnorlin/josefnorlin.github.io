@@ -184,7 +184,7 @@ table {
 
 @font-face {
   font-family: "asphalt";
-  src: url("Asphalts-Brush.woff") format("woff"); }
+  src: url("AsphaltsBrush.woff2") format("woff"); }
 /**
  * Site header
  */
@@ -448,7 +448,6 @@ table {
   float: left;
   font-family: Georgia;
   float: left;
-  font-family: Georgia;
   font-size: 70px;
   line-height: 58px;
   padding-top: 4px;
@@ -505,7 +504,7 @@ table {
  */
 .grid {
   max-width: 1200px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   /* 5px rounded corners */
   overflow: hidden;
   margin-bottom: 30px; }
