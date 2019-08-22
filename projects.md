@@ -4,8 +4,8 @@ title: Projects
 permalink: /projects/
 ---
  
-[![Netlight Consulting AB logo](/images/netlight.png)
-](http://netlight.com)
+[![Kvadrat AB logo](/images/kvadrat.png)
+](http://kvadrat.se)
 
 > My current employer
 
