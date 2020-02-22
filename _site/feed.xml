@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://192.168.0.100:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.0.100:4000/" rel="alternate" type="text/html" /><updated>2018-10-18T11:20:11+02:00</updated><id>http://192.168.0.100:4000/</id><title type="html">josefnorlin</title><subtitle>My Blog</subtitle><author><name>Josef Norlin</name></author><entry><title type="html">X Reasons Not to Buy an iPhone</title><link href="http://192.168.0.100:4000/x-reasons-not-to-buy-an-iphone/" rel="alternate" type="text/html" title="X Reasons Not to Buy an iPhone" /><published>2018-10-12T13:00:00+02:00</published><updated>2018-10-12T13:00:00+02:00</updated><id>http://192.168.0.100:4000/x-reasons-not-to-buy-an-iphone</id><content type="html" xml:base="http://192.168.0.100:4000/x-reasons-not-to-buy-an-iphone/">&lt;p&gt;Apple has done many things right through the years. And if you’ve talked with me about iPhone vs Android you know I’ve usually been the biggest Apple-promoter in any room. But people change and the iPhone, well, hasn’t. Here I’ll cover X (10) reasons why you should move on for your next phone purchase.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-22T22:29:48+01:00</updated><id>http://localhost:4000/</id><title type="html">josefnorlin</title><subtitle>My Blog</subtitle><author><name>Josef Norlin</name></author><entry><title type="html">Make Windows Great Again (using Linux)</title><link href="http://localhost:4000/make-windows-great-again/" rel="alternate" type="text/html" title="Make Windows Great Again (using Linux)" /><published>2020-01-01T12:00:00+01:00</published><updated>2020-01-01T12:00:00+01:00</updated><id>http://localhost:4000/make-windows-great-again</id><content type="html" xml:base="http://localhost:4000/make-windows-great-again/">&lt;p&gt;Because of price and limited or no upgradeability for Macs today alternatives start to look more and more tempting. If you are a developer like me, but also dependant on Adobe’s Creative Suite here’s how you can use Windows Subsystem for Linux and some keybinding to get your PC work quite as good as your Mac for a lot less.&lt;/p&gt;
 
-&lt;h2 id=&quot;1-design&quot;&gt;1. Design&lt;/h2&gt;
-&lt;p&gt;Little over a year ago I sat at a cinema not suspecting anything. But there it was. This cinema ad with a phone viewing a movie with a girl boxing. At a specific drum beat she boxes away the home-button of the phone. Next up is a drummer hitting away the side bezel. The routine goes on until the phone is almost completely bezel free. The Samsung Infinity Display looked stunning! Then came the iPhone X. It was supposed to be this beautiful all-screen-device but compared to the Samsung S8 the iPhone X looked like something Steve Jobs would have stopped even in the design phase. Not only were the screen not maxing out the space in the width, it included this huge notch at the top…&lt;/p&gt;
+&lt;h2 id=&quot;1-set-up-windows-subsystem-for-linux-2&quot;&gt;1. Set Up Windows Subsystem for Linux 2&lt;/h2&gt;
+&lt;p&gt;Windows Subsystem for Linux makes it possible to use&lt;/p&gt;
 
 &lt;p&gt;Watch the ad: &lt;a href=&quot;https://www.youtube.com/watch?v=uoBh24itPeM&quot;&gt;Samsung Breaking-Out ad&lt;/a&gt;&lt;/p&gt;
 
@@ -11,7 +11,7 @@
   &lt;p&gt;iPhone Xs and Samsung S9 comparison&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;2-innovation&quot;&gt;2. Innovation&lt;/h2&gt;
+&lt;h2 id=&quot;2-install-your-linux-flavour&quot;&gt;2. Install Your Linux-flavour&lt;/h2&gt;
 &lt;p&gt;Apple isn’t leading the mobile phone development anymore. Look at the video ad below for examples of that. One of the latest feature Samsung beat Apple on is to use the phone as a desktop computer. All you need is an adapter, mouse, keyboard and screen and you’re up and running. You might say, well, Apple doesn’t lead but when they release a new feature they do a great job. Only problem is, Samsung and many others do a great job too. And often even surpassing Apple. Yes, iCloud, I’m looking at you.&lt;/p&gt;
 
 &lt;p&gt;Other innovations Samsung beaten Apple to: &lt;a href=&quot;https://youtu.be/R59TevgzN3k&quot;&gt;Samsung Galaxy - Growing Up&lt;/a&gt;&lt;/p&gt;
@@ -22,7 +22,7 @@
   &lt;p&gt;Interested? Take a look here: &lt;a href=&quot;https://www.youtube.com/watch?v=G_Zdq0AjhXo&quot;&gt;Samsung - Desktop EXperience (DEX)&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;3-price&quot;&gt;3. Price&lt;/h2&gt;
+&lt;h2 id=&quot;3-use-windows-terminal-with-oh-my-zsh&quot;&gt;3. Use Windows Terminal with Oh My Zsh&lt;/h2&gt;
 &lt;p&gt;In Sweden by 30th of September 2018 an iPhone XS with 64 GB costs 12’489 SEK ($1’405), Samsung S9 with 64 GB costs 6’090 SEK ($685). So basically half the money. If the iPhone would be superior I would get it but I’m arguing its the opposite. I would say it’s twice the price for an inferior phone. The Samsung S9 even comes with a memory card reader making its storage expandable. The day you need more space you can add it, not spending an extra 3’000 SEK upfront to get 192 GB more. 200 GB extra for a Samsung S9 would cost under 400 SEK. Not only is that close to 1/10 of the price, you can reuse your MicroSD card in your next phone/camera too.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-iphone-vs-galaxy-price.png&quot; alt=&quot;iPhone XS vs Samsung S9 price comparisson&quot; /&gt;&lt;/p&gt;
@@ -31,7 +31,7 @@
   &lt;p&gt;1 &amp;amp; 2) As reported by Prisjakt 2018-09-30. See today’s &lt;a href=&quot;https://www.prisjakt.nu/produkt.php?p=4652628&quot;&gt;iPhone XS prices here&lt;/a&gt;, and today’s &lt;a href=&quot;https://www.prisjakt.nu/produkt.php?p=4919780&quot;&gt;Samsung S9 prices here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;4-unlocking&quot;&gt;4. Unlocking&lt;/h2&gt;
+&lt;h2 id=&quot;4-set-up-your-vs-code&quot;&gt;4. Set up your VS Code&lt;/h2&gt;
 &lt;p&gt;Ever tried to open an iPhone X(S/R) with part of your face covered by your pillow? Or while sneak-peaking at it from an angle? Face-ID is a great marketing tool but truth be told there are better ways to unlock your phone. Samsung has Face-ID technologies too but also includes a fingerprint reader on the back which I found far superior. While lifting my phone I can activate it just by holding it and the phone unlocks even before my eyes reach it making the otherwise mandatory “selfie look” at the iPhone X unnecessary. Just count how many times you unlock your phone everyday and count the extra seconds it costs you. iPhones doesn’t present your apps directly either but shows you your “lock screen”-unlocked which makes even more seconds tick.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-samsung-fingerprint.png&quot; alt=&quot;Samsung S9 fingerprint reader&quot; /&gt;&lt;/p&gt;
@@ -40,8 +40,60 @@
   &lt;p&gt;Samsung’s fingerprint reader is located at the back, handy for your pinky while grabbing your phone&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;h2 id=&quot;5-customize-your-keybindings-to-match-your-mac&quot;&gt;5. Customize your Keybindings to match your Mac&lt;/h2&gt;
+&lt;p&gt;AHK + Wox + Copy and paste + ditto&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018-10-12-iphone-dongles.png&quot; alt=&quot;Apple's dongles&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Want to charge and listen to music? Or just listening on your Bluetooth headset that just ran out on juice. No problem, just bring one or two adapters to your iPhone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;to-conclude&quot;&gt;To conclude…&lt;/h2&gt;
+&lt;p&gt;If you’re happy with your iPhone and want a smooth transition to something “old-new” go ahead get a new one. My only aim is to make everyone aware that things have changed over the recent years. Even if it’s some hassle switching, the experience replacing my iPhone with a Samsung Android was like switching from my old SonyEricsson to my first iPhone 3G back in the day. You may need to move some contacts to your Gmail-account and install the apps you use again and setting them up, but if you’re up for it’s worth the challenge.&lt;/p&gt;</content><author><name>Josef Norlin</name></author><summary type="html">Because of price and limited or no upgradeability for Macs today alternatives start to look more and more tempting. If you are a developer like me, but also dependant on Adobe’s Creative Suite here’s how you can use Windows Subsystem for Linux and some keybinding to get your PC work quite as good as your Mac for a lot less.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2020-02-25-make-windows-great-again.png" /></entry><entry><title type="html">X Reasons Not to Buy an iPhone</title><link href="http://localhost:4000/x-reasons-not-to-buy-an-iphone/" rel="alternate" type="text/html" title="X Reasons Not to Buy an iPhone" /><published>2018-10-12T13:00:00+02:00</published><updated>2018-10-12T13:00:00+02:00</updated><id>http://localhost:4000/x-reasons-not-to-buy-an-iphone</id><content type="html" xml:base="http://localhost:4000/x-reasons-not-to-buy-an-iphone/">&lt;p&gt;Apple has done many things right through the years. And if you’ve talked with me about iPhone vs Android you know I’ve usually been the biggest Apple-promoter in any room. But people change and the iPhone, well, hasn’t. Here I’ll cover X (10) reasons why you should move on for your next phone purchase.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-design&quot;&gt;1. Design&lt;/h2&gt;
+&lt;p&gt;Little over a year ago I saw a cinema ad with a phone viewing a movie with a girl boxing. At a specific drumbeat, she hit the home button away from the phone. Next up is a drummer pushing away the side bezel. This punching goes on until the phone is almost completely bezel-free. The Samsung Infinity Display looked stunning. After a year came the iPhone X. It was supposed to be this beautiful all-screen-device but compared to the Samsung S8 the iPhone X looked like something Steve Jobs would have stopped even in the design phase. Not only were the screen not maxing out space in the width, it included this huge notch at the top…&lt;/p&gt;
+
+&lt;p&gt;Watch the ad: &lt;a href=&quot;https://www.youtube.com/watch?v=uoBh24itPeM&quot;&gt;Samsung Breaking-Out ad&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018-10-12-iphone-xs-vs-samsung-s9.png&quot; alt=&quot;iPhone XS vs Samsung S9&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;iPhone Xs and Samsung S9 comparison&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-innovation&quot;&gt;2. Innovation&lt;/h2&gt;
+&lt;p&gt;Apple isn’t leading the mobile phone development anymore. Look at the video ad below for examples of that. One of the latest feature Samsung beat Apple on is to use the phone as a desktop computer. All you need is an adapter, mouse, keyboard, and screen and you’re up and running. You might say, well, Apple doesn’t lead but when they release a new feature they do a great job. The only problem is, Samsung and many others do a great job too. And often even surpassing Apple. Yes, iCloud, I’m looking at you.&lt;/p&gt;
+
+&lt;p&gt;Other innovations Samsung beaten Apple to: &lt;a href=&quot;https://youtu.be/R59TevgzN3k&quot;&gt;Samsung Galaxy - Growing Up&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018-10-12-samsung-dex.png&quot; alt=&quot;Samsung DEX&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Interested? Take a look here: &lt;a href=&quot;https://www.youtube.com/watch?v=G_Zdq0AjhXo&quot;&gt;Samsung - Desktop EXperience (DEX)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;3-price&quot;&gt;3. Price&lt;/h2&gt;
+&lt;p&gt;In Sweden by 30th of September 2018 an iPhone XS with 64 GB costs 12’489 SEK ($1’405), Samsung S9 with 64 GB costs 6’090 SEK ($685). So basically half the money. If the iPhone would be superior I would get it but I’m arguing it’s the opposite. I would say it’s twice the price for an inferior phone. The Samsung S9 even comes with a memory card reader making its storage expandable. The day you need more space you can add it, not spending an extra 3’000 SEK upfront to get 192 GB more. 200 GB extra for a Samsung S9 would cost under 400 SEK. Not only is that close to 1/10 of the price, but you can also reuse your MicroSD card in your next phone/camera too.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018-10-12-iphone-vs-galaxy-price.png&quot; alt=&quot;iPhone XS vs Samsung S9 price comparisson&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1 &amp;amp; 2) As reported by Prisjakt 2018-09-30. See today’s &lt;a href=&quot;https://www.prisjakt.nu/produkt.php?p=4652628&quot;&gt;iPhone XS prices here&lt;/a&gt;, and today’s &lt;a href=&quot;https://www.prisjakt.nu/produkt.php?p=4919780&quot;&gt;Samsung S9 prices here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4-unlocking&quot;&gt;4. Unlocking&lt;/h2&gt;
+&lt;p&gt;Ever tried to open an iPhone X(S/R) with part of your face covered by your pillow? Or while sneak-peaking at it from an angle? Face-ID is a great marketing tool but truth be told there are better ways to unlock your phone. Samsung has Face-ID technologies too but also includes a fingerprint reader on the back which I found far superior. While lifting my phone I can activate it just by holding it and the phone unlocks even before my eyes reach it making the otherwise mandatory “selfie look” at the iPhone X unnecessary. Just count how many times you unlock your phone every day and count the extra seconds it costs you. iPhones don’t present your apps directly either but gives you your “lock screen”-unlocked which makes even more seconds tick.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018-10-12-samsung-fingerprint.png&quot; alt=&quot;Samsung S9 fingerprint reader&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Samsung’s fingerprint reader is located at the back, handy for your pinky while grabbing your phone&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;h2 id=&quot;5-dongle-hell&quot;&gt;5. Dongle-hell&lt;/h2&gt;
-&lt;p&gt;Apple’s got a lot of complaints for dropping the headphone jack. And they should. When my bluetooth headphones run out of juice, why do they force me to dongle-up? However, adding to the dongle situation is that the new USB-C standard (shipping in the majority of new Android phones) is far superior than Apple’s lightning connector. USB-C can be used for charging, video output and more. And what’s more, even power adaptors for computers can now charge your phone and vice-versa. Give it a year or two mostly all new devices will ship with USB-C too, meaning any camera or keyboard you buy will plug-in right to your phone as well.&lt;/p&gt;
+&lt;p&gt;Apple’s got a lot of complaints for letting the headphone jack go. And they should. When Bluetooth headphones run out of juice, why do they force us to dongle-up? However, adding to the dongle situation is that the new USB-C standard (shipping in the majority of new Android phones) is far superior to Apple’s lightning connector. USB-C can be used for charging, video output and more. And what’s more, even power adaptors for computers can now charge your phone and vice-versa. Give it a year or two mostly all new devices will ship with USB-C too, meaning any camera or keyboard you buy will plug-in right to your phone as well.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-iphone-dongles.png&quot; alt=&quot;Apple's dongles&quot; /&gt;&lt;/p&gt;
 
@@ -50,14 +102,14 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;6-payments&quot;&gt;6. Payments&lt;/h2&gt;
-&lt;p&gt;If you ask around you might be surpised how many stores support Samsung Pay but not Apple Pay. Every card reader that supports RFID (meaning that you can just hover your card to pay with it) also supports Samsung Pay. Hey, Coop stores does not even support RFID bank cards but put your Samsung Pay phone to it and it works! Very handy for all you guys wanting to leave the wallet home and just take a stroll with your phone. Apple Pay has no way near the same accessibility, especially not if you look at what banks support Apple Pay in Sweden.&lt;/p&gt;
+&lt;p&gt;If you ask around you might be surprised how many stores support Samsung Pay but not Apple Pay. Every card reader that supports RFID (meaning that you can just hover your card to pay with it) also supports Samsung Pay. Hey, Coop stores even support RFID bank cards but put your Samsung Pay-phone to it and it works! Very handy for all you guys wanting to leave the wallet home and just take a stroll with your phone. Apple Pay has no way near the same accessibility, especially not if you look at what banks support Apple Pay in Sweden.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-samsung-pay.png&quot; alt=&quot;Samsung Pay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-supported-pay-services.png&quot; alt=&quot;Samsung Pay vs Apple Pay supported services&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Supported services in Sweden 2018-09-30. Unfortunately for Apple Pay users the MasterCard and VISA logo doesn’t mean any VISA or MasterCard work. Nope. I’ve tried. So, basically Nordea’s and ST1 cards are the only ones supported for now. See today’s &lt;a href=&quot;https://www.apple.com/se/apple-pay/&quot;&gt;Apple Pay’s supported services here&lt;/a&gt;, and today’s &lt;a href=&quot;https://www.samsung.com/se/pay/&quot;&gt;Samsung Pay’s supported services here&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;Supported services in Sweden 2018-09-30. Unfortunately for Apple Pay users, the MasterCard and VISA logo doesn’t mean any VISA or MasterCard work. Nope. I’ve tried. So, Nordea’s and ST1 cards are the only ones supported for now. See today’s &lt;a href=&quot;https://www.apple.com/se/apple-pay/&quot;&gt;Apple Pay’s supported services here&lt;/a&gt;, and today’s &lt;a href=&quot;https://www.samsung.com/se/pay/&quot;&gt;Samsung Pay’s supported services here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;7-multitasking&quot;&gt;7. Multitasking&lt;/h2&gt;
@@ -71,8 +123,8 @@
   &lt;p&gt;Android comes with true multitasking. Here I have a Youtube-clip hovering my “Calendar and Keep app”-split view.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;8-open-plattform&quot;&gt;8. Open plattform&lt;/h2&gt;
-&lt;p&gt;Ever tried to add a custom ringtone on an iPhone, a tone not bought on iTunes? Ever tried to change the default keyboard (without the Apple standard keyboard preloading in the background)? Use Chrome as your standard browser to sync history and bookmarks on all your devices? Well, then you know Apple’s iPhone is locked down. Might not be a surprise, but you might get surprised when you try the freedom on the other side of the fence. We even have apps on the Android side to automate sending SMS/emails at certain times, turn on wifi when leaving the house, dim the screen even further and the list goes on and on.&lt;/p&gt;
+&lt;h2 id=&quot;8-open-platform&quot;&gt;8. Open platform&lt;/h2&gt;
+&lt;p&gt;Ever tried to add a custom ringtone on an iPhone, a tone not bought on iTunes? Ever tried to change the default keyboard (without the Apple standard keyboard preloading in the background)? Use Chrome as your standard browser to sync history and bookmarks on all your devices? Well, then you know Apple’s iPhone is locked down. It might not be a surprise, but you might get surprised when you try the freedom on the other side of the fence. We even have apps on the Android side to automate sending SMS/emails at certain times, turn on wifi when leaving the house, dim the screen even further and the list goes on and on.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-open-platform.png&quot; alt=&quot;Power apps you'll probably never find on an iPhone&quot; /&gt;&lt;/p&gt;
 
@@ -80,17 +132,17 @@
   &lt;p&gt;Power apps you’ll probably never see on an iPhone: From the left: Automator – Let’s you automate phone features depending on location and more; Do it later – Schedule your phone to SMS/email etc at another time; Memo Reminder – Turns Memos into nifty Android-notifications meaning you’ll always see them (for really important things to remember).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;9-icloud-vs-everyone-elses-cloud&quot;&gt;9. iCloud vs everyone-elses-Cloud&lt;/h2&gt;
-&lt;p&gt;When iCloud was first released I was stunned by its beauty. But it didn’t take long to realize you can’t access it on a mobile device. So, want to read your mail on a friend’s or a company phone? Well, you can’t. But Apple’s cloud problems doesn’t end there. Want to send a SMS through a computer. Works great if its a Mac right!? Nope, it gotta be a Mac where you’ve registered your iCloud account. Meaning creating a new user and setting it up to iCloud and so forth. My point being, Apple’s mentality of locking things down are hurting their cloud solutions. On an Android phone I can open any browser and connect to my phone if it’s on the same network. Or even open my Gmail on any device!&lt;/p&gt;
+&lt;h2 id=&quot;9-icloud-vs-everyone-elses-cloud&quot;&gt;9. iCloud vs everyone-else’s-Cloud&lt;/h2&gt;
+&lt;p&gt;When iCloud was first released I was stunned by its beauty. But it didn’t take long to realize you can’t access it on a mobile device. So, want to read your mail on a friend’s or a company phone? Well, you can’t. But Apple’s cloud problems don’t end there. Imagine you want to send SMS through a computer. Works great if it’s a Mac right!? Nope, it gotta be a Mac where you’ve registered your iCloud account. Meaning creating a new user and setting it up to iCloud and so forth. My point being, Apple’s mentality of locking things down is hurting their cloud solutions. On an Android phone I can open any browser and connect to my phone if it’s on the same network. Or even open my Gmail on any device!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-airdroid.png&quot; alt=&quot;AirDroid to control your phone through the browser&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Through AirDroid you can for instance send SMSs through your browser. A thing you only can do with your dedicated Mac if you have an iPhone.&lt;/p&gt;
+  &lt;p&gt;Through AirDroid you can, for instance, send SMSs through your browser. A thing you only can do with your dedicated Mac if you have an iPhone.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;10-better-off-alone&quot;&gt;10. Better off alone?&lt;/h2&gt;
-&lt;p&gt;When I was out shopping for workout clothes I ended up buying a training bag from Under Armour, shoes from Nike and shorts from SOC. The sport clothes industry is diversified. No brand are superior at all categories which is why we choose the products we like the most in each category, not locked into a specific brand. I mean that the same should be true for mobile phones. Today each category of hardware, cloud and software are getting harder and harder to compete in. In an iPhone you get Apples take at all of those, but if you choose an Android phone you can choose the hardware, software, backup, assistants, app launchers etc that suits you.&lt;/p&gt;
+&lt;p&gt;When you’re out shopping for workout clothes you probably end up buying a training bag from Under Armour, shoes from Nike and no-brand shorts because the sport clothes industry is diversified. No brand are superior at all categories which is why we choose the products we like the most in each category, not locked into a specific brand. I mean that the same should be true for mobile phones. Today each category of hardware, cloud and software is getting harder and harder to compete in. In an iPhone you get Apples take at all of those, but if you choose an Android phone you can choose the hardware, software, backup, assistants, app launchers etc that suits you.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2018-10-12-leonardo-dicaprio.png&quot; alt=&quot;Leonardo approves of this message&quot; /&gt;&lt;/p&gt;
 
@@ -99,6 +151,6 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;to-conclude&quot;&gt;To conclude…&lt;/h2&gt;
-&lt;p&gt;If you’re happy with your iPhone and want a smooth transition to something “old-new” go ahead get a new one. My only aim is to make everyone aware that things have changed over the recent years. Even if it’s some hassle switching, the experience replacing my iPhone with a Samsung Android was like switching from my old SonyEricsson to my first iPhone 3G back in the day. You may need to move some contacts to your Gmail-account and install the apps you use again and setting them up, but if you’re up for it’s worth the challenge.&lt;/p&gt;</content><author><name>Josef Norlin</name></author><summary type="html">Apple has done many things right through the years. And if you’ve talked with me about iPhone vs Android you know I’ve usually been the biggest Apple-promoter in any room. But people change and the iPhone, well, hasn’t. Here I’ll cover X (10) reasons why you should move on for your next phone purchase.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.0.100:4000/2018-10-12-x-reasons-not-buy-an-iphone.png" /></entry><entry><title type="html">First Post Ever</title><link href="http://192.168.0.100:4000/first-post-ever/" rel="alternate" type="text/html" title="First Post Ever" /><published>2018-09-14T13:00:00+02:00</published><updated>2018-09-14T13:00:00+02:00</updated><id>http://192.168.0.100:4000/first-post-ever</id><content type="html" xml:base="http://192.168.0.100:4000/first-post-ever/">&lt;p&gt;Welcome to my blog and my first post ever! Not much  here yet but this is where I’ll write about stuff that matters to me such as tech, lifestyle and spiritual things. Basically its a way for me to express my thoughts about what I’ve learned through my mistakes and triumphs so far.&lt;/p&gt;
+&lt;p&gt;If you’re happy with your iPhone and want a smooth transition to something “old-new” go ahead get a new one. My only aim is to make everyone aware that things have changed over recent years. Even if it’s some hassle switching, the experience replacing my iPhone with a Samsung Android was like switching from my old SonyEricsson to my first iPhone 3G back in the day. You may need to move some contacts to your Gmail-account and install the apps you use again and setting them up, but if you’re up for it’s worth the challenge.&lt;/p&gt;</content><author><name>Josef Norlin</name></author><summary type="html">Apple has done many things right through the years. And if you’ve talked with me about iPhone vs Android you know I’ve usually been the biggest Apple-promoter in any room. But people change and the iPhone, well, hasn’t. Here I’ll cover X (10) reasons why you should move on for your next phone purchase.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2018-10-12-x-reasons-not-buy-an-iphone.png" /></entry><entry><title type="html">First Post Ever</title><link href="http://localhost:4000/first-post-ever/" rel="alternate" type="text/html" title="First Post Ever" /><published>2018-09-14T13:00:00+02:00</published><updated>2018-09-14T13:00:00+02:00</updated><id>http://localhost:4000/first-post-ever</id><content type="html" xml:base="http://localhost:4000/first-post-ever/">&lt;p&gt;Welcome to my blog and my first post ever! Not much  here yet but this is where I’ll write about stuff that matters to me such as tech, lifestyle and spiritual things. Basically its a way for me to express my thoughts about what I’ve learned through my mistakes and triumphs so far.&lt;/p&gt;
 
-&lt;p&gt;Add me to your social media through one of the links at the bottom to stay updated.&lt;/p&gt;</content><author><name>Josef Norlin</name></author><summary type="html">Welcome to my blog and my first post ever! Not much here yet but this is where I’ll write about stuff that matters to me such as tech, lifestyle and spiritual things. Basically its a way for me to express my thoughts about what I’ve learned through my mistakes and triumphs so far.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.0.100:4000/2018-09-14-first-post-ever.png" /></entry></feed>
+&lt;p&gt;Add me to your social media through one of the links at the bottom to stay updated.&lt;/p&gt;</content><author><name>Josef Norlin</name></author><summary type="html">Welcome to my blog and my first post ever! Not much here yet but this is where I’ll write about stuff that matters to me such as tech, lifestyle and spiritual things. Basically its a way for me to express my thoughts about what I’ve learned through my mistakes and triumphs so far.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2018-09-14-first-post-ever.png" /></entry></feed>
