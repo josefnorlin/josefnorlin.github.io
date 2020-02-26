@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "Make Windows Great Again (using Linux)"
-date:   2020-01-01 13:00:00 +0200
+title:  "Make Windows Work Like a Mac"
+date:   2029-01-01 13:00:00 +0200
 categories: tech
-image:  2020-02-25-make-windows-great-again.png
+image:  2029-03-25-make-windows-work-like-a-mac.png
 comments: true
 ---
-Because of price and limited or no upgradeability for Macs today alternatives start to look more and more tempting. If you are a developer like me, but also dependant on Adobe's Creative Suite here's how you can use Windows Subsystem for Linux and some keybinding to get your PC work quite as good as your Mac for a lot less.
+Disclaimer, I'm a developer and not talking about gaming here, and from that perspective, Macs are not as great as they used to be. I argue that Macs have mostly stayed the same while PCs have started to get their stuff together. Microsoft stopped its hit or miss releases (Windows XP = hit, Windows Vista = miss, Windows 7 = hit etc.) and started incrementally update Windows 10 together with it's partners until touch screen and pen features started to make sense, Windows Hello logs you in automatically, a unified settings app and even security, and updates are getting decent. That combined with cheaper price and unlimited customization and upgradability make Windows PCs look interesting again.
+
+In my experience, Hackintosh is a little too time consuming and Linux isn't supported by Adobe and its Creative Suite. That is why I present you with this guide to set up keybindings, console, copy-and-paste etc to make the switch easier.
 
 ## 1. Set Up Windows Subsystem for Linux 2
-Windows Subsystem for Linux makes it possible to use 
+One of the big things I've learned to appreciate with Macs is the Unix terminal. Now, you have that alternative for your Windows PC as well. 
 
 Watch the ad: [Samsung Breaking-Out ad](https://www.youtube.com/watch?v=uoBh24itPeM)
 
