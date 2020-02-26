@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Make Windows Work Like a Mac"
-date:   2029-01-01 13:00:00 +0200
+date:   2029-03-25 13:00:00 +0200
 categories: tech
-image:  2029-03-25-make-windows-work-like-a-mac.png
+image:  2020-03-25-make-windows-work-like-a-mac.png
 comments: true
 ---
 Disclaimer, I'm a developer and not talking about gaming here, and from that perspective, Macs are not as great as they used to be. I argue that Macs have mostly stayed the same while PCs have started to get their stuff together. Microsoft stopped its hit or miss releases (Windows XP = hit, Windows Vista = miss, Windows 7 = hit etc.) and started incrementally update Windows 10 together with it's partners until touch screen and pen features started to make sense, Windows Hello logs you in automatically, a unified settings app and even security, and updates are getting decent. That combined with cheaper price and unlimited customization and upgradability make Windows PCs look interesting again.
