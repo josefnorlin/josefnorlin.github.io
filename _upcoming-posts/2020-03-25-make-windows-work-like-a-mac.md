@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Make Windows Work Like a Mac"
-date:   2029-03-25 13:00:00 +0200
+date:   2020-03-25 13:00:00 +0200
 categories: tech
 image:  2020-03-25-make-windows-work-like-a-mac.png
 comments: true
