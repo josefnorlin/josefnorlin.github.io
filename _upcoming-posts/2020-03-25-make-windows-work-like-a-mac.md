@@ -66,6 +66,8 @@ ssh-agent
 
  ssh-add C:\Users\josef\.ssh\id_rsa.pub
 
+ssh -T git@github.com
+
 ## 4. Set up your VS Code
 Ever tried to open an iPhone X(S/R) with part of your face covered by your pillow? Or while sneak-peaking at it from an angle? Face-ID is a great marketing tool but truth be told there are better ways to unlock your phone. Samsung has Face-ID technologies too but also includes a fingerprint reader on the back which I found far superior. While lifting my phone I can activate it just by holding it and the phone unlocks even before my eyes reach it making the otherwise mandatory "selfie look" at the iPhone X unnecessary. Just count how many times you unlock your phone everyday and count the extra seconds it costs you. iPhones doesn't present your apps directly either but shows you your "lock screen"-unlocked which makes even more seconds tick.
 
