@@ -46,7 +46,8 @@ On windows 10, starting with version 1709 (win+R and type winver to find the bui
     Install "Open SSH Client"
     Restart the computer
 
-Now you can open a prompt and ssh-keygen and the client will be recognized by windows. I have not tested this. If you do not have windows 10 or do not want to use the beta, follow the instructions below on how to use putty.
+Now you can open a prompt and ssh-keygen and the client will be recognized by windows. 
+
 
 
 ## 4. Set up your VS Code
