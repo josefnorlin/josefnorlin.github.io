@@ -48,7 +48,23 @@ On windows 10, starting with version 1709 (win+R and type winver to find the bui
 
 Now you can open a prompt and ssh-keygen and the client will be recognized by windows. 
 
+## Install Chocolatly
 
+Open elevated PowerShell:
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install git
+
+## ssh-agen in windows 10
+Get-Service ssh-agent
+
+In elevated PS:
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+
+ssh-agent
+
+ ssh-add C:\Users\josef\.ssh\id_rsa.pub
 
 ## 4. Set up your VS Code
 Ever tried to open an iPhone X(S/R) with part of your face covered by your pillow? Or while sneak-peaking at it from an angle? Face-ID is a great marketing tool but truth be told there are better ways to unlock your phone. Samsung has Face-ID technologies too but also includes a fingerprint reader on the back which I found far superior. While lifting my phone I can activate it just by holding it and the phone unlocks even before my eyes reach it making the otherwise mandatory "selfie look" at the iPhone X unnecessary. Just count how many times you unlock your phone everyday and count the extra seconds it costs you. iPhones doesn't present your apps directly either but shows you your "lock screen"-unlocked which makes even more seconds tick.
