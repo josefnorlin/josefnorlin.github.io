@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Like a Mac (for developers)"
-date:   2020-02-25 13:00:00 +0200
+date:   2020-02-29 09:00:00 +0200
 categories: tech
 image:  2020-02-29-windows-like-a-mac-(for-developers).png
 comments: true
