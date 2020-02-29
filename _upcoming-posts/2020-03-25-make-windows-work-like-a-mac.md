@@ -36,6 +36,18 @@ In Sweden by 30th of September 2018 an iPhone XS with 64 GB costs 12'489 SEK ($1
 
 >1 & 2) As reported by Prisjakt 2018-09-30. See today's [iPhone XS prices here](https://www.prisjakt.nu/produkt.php?p=4652628), and today's [Samsung S9 prices here](https://www.prisjakt.nu/produkt.php?p=4919780).
 
+## 4. Get your SSH-Keys Working
+On windows 10, starting with version 1709 (win+R and type winver to find the build number), Microsoft is releasing a beta of the OpenSSH client and server. To be able to create a key, you'll need to install the OpenSSH server. To do this follow these steps:
+
+    open the start menu
+    Type "optional feature"
+    select "Add an optional feature"
+    Click "Add a feature"
+    Install "Open SSH Client"
+    Restart the computer
+
+Now you can open a prompt and ssh-keygen and the client will be recognized by windows. I have not tested this. If you do not have windows 10 or do not want to use the beta, follow the instructions below on how to use putty.
+
 
 ## 4. Set up your VS Code
 Ever tried to open an iPhone X(S/R) with part of your face covered by your pillow? Or while sneak-peaking at it from an angle? Face-ID is a great marketing tool but truth be told there are better ways to unlock your phone. Samsung has Face-ID technologies too but also includes a fingerprint reader on the back which I found far superior. While lifting my phone I can activate it just by holding it and the phone unlocks even before my eyes reach it making the otherwise mandatory "selfie look" at the iPhone X unnecessary. Just count how many times you unlock your phone everyday and count the extra seconds it costs you. iPhones doesn't present your apps directly either but shows you your "lock screen"-unlocked which makes even more seconds tick.
