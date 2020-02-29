@@ -64,6 +64,7 @@ Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 
 ssh-agent
 
+
  ssh-add C:\Users\josef\.ssh\id_rsa.pub
 
 ssh -T git@github.com
