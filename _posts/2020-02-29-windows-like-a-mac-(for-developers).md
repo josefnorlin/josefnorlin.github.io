@@ -8,16 +8,6 @@ comments: true
 ---
 In my experience, Macs are great but expensive, Hackintosh too much work and Linux lacks Adobe's Creative Suite. That's why I present you with this guide to make Windows work more like a Mac.
 
-## The Launcher
-If you like the Cmd + Space launcher in Mac you want to try Wox for Windows which does mostly the same things.
-
-1. Download and install from [here](https://github.com/Wox-launcher/Wox/releases) (you may need to scroll down to the "Latest release" to find the files and you'll need to install both "Wox" and "Everything" to make it all work)
-2. When running you can change the hotkey to be "Ctrl+Space" by right-clicking the window
-3. If you don't like the pixel perfectness of the default dark theme, [here's](a fix for that). (To install it copy the theme to %LOCALAPPDATA%\Wox\app-(your app version)\Themes)
-4. That should look something like this:
-
-    ![Wox instead of Spotlight Search on Cmd+Space](/images/2020-02-29-wox.png)
-
 ## Keybindings
 The biggest difference for the keyboard between Mac and PC is that the Cmd key in Mac does what the Ctrl key in Windows does (and they have switched places too). So the first thing to do is remap them:
 
@@ -28,9 +18,9 @@ The biggest difference for the keyboard between Mac and PC is that the Cmd key i
 
 1. Then we need to download and install a program called [Auto Hot Key](https://www.autohotkey.com).
 2. Then I have two custom made scripts for you which can be download below
-    
+
     [Alt-F4 to Cmd-Q.ahk](/shared/files/Alt-F4 to Cmd-Q.ahk)
-    
+
     [Alt-Tab Correction.ahk](/shared/files/Alt-Tab Correction.ahk)
 
 3. Save these files wherever you like.
@@ -38,20 +28,10 @@ The biggest difference for the keyboard between Mac and PC is that the Cmd key i
 5. To make this work after a reboot, right-click them and choose "Send to > Desktop (create shortcut)".
 6. Then, press Win + R and type: "shell:startup" to open up the autostart folder and copy these newly created shortcuts from your desktop to this folder.
 
-## Screenshot replacement
-Mac's new screenshot tool is a lot greater than Windows PrintScreen + Paint, Snipping Tool and Snip & Sketch in my opinion. But once I started using Lightshot I could see it was a lot closer, and even better in some use cases. Installing it and changing it's keybindings makes you feel right a lot more convenient in Windows.
-
-1. Download and install Lightshot from [here](https://app.prntscr.com/en/download.html)
-2. Once installed you can change Default hotkey to "Ctrl + 4" and Instant save of the fullscreen to "Ctrl + 5" to mimick the Mac behaviour as much as possible.
-3. Try your new screenshot tool by pressing Ctrl + 4 and once you edited how you want it you can just copy it with Ctrl + C and you're done.
-
-    ![Lightshot screenshot](/images/2020-02-29-lightshot.png)
-
-
 ## Get a Decent Terminal
 
-### Install a Linux Distribution
-One of the big things I've learned to appreciate with Macs is the Unix terminal. Now, you have that alternative for your Windows PC as well. 
+### Step 1. Install a Linux Distribution
+One of the big things I've learned to appreciate with Macs is the Unix terminal. Now, you have that alternative for your Windows PC as well.
 
 1. Press the Windows Button (or click the Windows Flag)
 2. Search for PowerShell, right-click the top result, and select "Run as administrator"-option.
@@ -63,7 +43,7 @@ One of the big things I've learned to appreciate with Macs is the Unix terminal.
 6. And when running, make sure to press the Menu title, and press "Properties" and under Options check "Use Ctrl+Shift+C/Ctrl+Shift+V as Copy/Paste"
 
 
-### Install and Customize Windows Terminal
+### Step 2. Install and Customize Windows Terminal
 Now it's time to elevate your Terminal experience.
 
 1. Install a Powerline supported font, in this case, we'll use [DejaVuSansMono for Powerline](/shared/files/DejaVu Sans Mono for Powerline.ttf)
@@ -71,15 +51,15 @@ Now it's time to elevate your Terminal experience.
 3. Run the Terminal and open the Settings:
 
     ![Windows Terminal](/images/2020-02-29-windows-terminal.png)
-    
+
 4. Change the following lines:
 
-    From 
-    
+    From
+
         "defaultProfile": "{YOUR POWERSHELL GUID}",
-    
-    To 
-    
+
+    To
+
         "defaultProfile": "{YOUR UBUNTU GUID}",
 
     From
@@ -103,22 +83,22 @@ Now it's time to elevate your Terminal experience.
         },
 
     From
-    
+
         "keybindings": []
-    
-    To        
+
+    To
 
         "keybindings": [
         {
         "command" : "closeTab",
-        "keys" : 
+        "keys" :
         [
             "ctrl+w"
         ]
         },
         {
         "command" : "newTab",
-        "keys" : 
+        "keys" :
         [
             "ctrl+t"
         ]
@@ -128,7 +108,7 @@ Now it's time to elevate your Terminal experience.
 
 5. Quit and restart your Windows Terminal and will now open up using Ubuntu as default.
 
-### Install Oh My Zsh
+### Step 3. Install Oh My Zsh
 1. Next level is to install the popular Oh My Zsh plugin to your console. Continue in your Windows Terminal Window instance of Ubuntu and install Zsh by running:
 
     ```sudo apt install zsh```
@@ -170,7 +150,7 @@ Now it's time to elevate your Terminal experience.
 
 
 
-### Set Up Git and SSH keys for Windows and Ubuntu
+### Step 4. Set Up Git and SSH keys for Windows and Ubuntu
 Now, when we have our shell we need to add our SSH keys so both Windows with supposedly Visual Studio Code and our newly created terminal can use them.
 
 1. We'll start installing Chocolatey (like Homebrew for Mac). Press Win + R and type "Powershell", then right-click it and open with "Run as administrator"
@@ -189,7 +169,7 @@ Now, when we have our shell we need to add our SSH keys so both Windows with sup
 
 6. Then we can generate a key by running this and following the instructions:
 
-    ```ssh-keygen``` 
+    ```ssh-keygen```
 
 7. Now the key exists in our Windows ssh-agent and we can add the public key to our provider.
 
@@ -230,9 +210,27 @@ Visual Studio Code is a nice editor, especially when using Windows Subsystem for
 
 3. Then by clicking "View > Terminal" you will see the terminal below the screen. And there next to the plus sign, you can choose WSL if not already selected.
 
-4. Then you're done!
-
 ![Visual Studio Code](/images/2020-02-29-wsl-in-vscode.png)
+
+## The Launcher
+If you like the Cmd + Space launcher in Mac you want to try Wox for Windows which does mostly the same things.
+
+1. Download and install from [here](https://github.com/Wox-launcher/Wox/releases) (you may need to scroll down to the "Latest release" to find the files and you'll need to install both "Wox" and "Everything" to make it all work)
+2. When running you can change the hotkey to be "Ctrl+Space" by right-clicking the window
+3. If you don't like the pixel perfectness of the default dark theme, [here's](a fix for that). (To install it copy the theme to %LOCALAPPDATA%\Wox\app-(your app version)\Themes)
+4. That should look something like this:
+
+    ![Wox instead of Spotlight Search on Cmd+Space](/images/2020-02-29-wox.png)
+
+## Screenshot replacement
+Mac's new screenshot tool is a lot greater than Windows PrintScreen + Paint, Snipping Tool and Snip & Sketch in my opinion. But once I started using Lightshot I could see it was a lot closer, and even better in some use cases. Installing it and changing it's keybindings makes you feel right a lot more convenient in Windows.
+
+1. Download and install Lightshot from [here](https://app.prntscr.com/en/download.html)
+2. Once installed you can change Default hotkey to "Ctrl + 4" and Instant save of the fullscreen to "Ctrl + 5" to mimick the Mac behaviour as much as possible.
+3. Try your new screenshot tool by pressing Ctrl + 4 and once you edited how you want it you can just copy it with Ctrl + C and you're done.
+
+    ![Lightshot screenshot](/images/2020-02-29-lightshot.png)
+
 
 ## To conclude...
 It's a little bit tricky to get everything working as you want but with a little tweaking Windows can act mostly like your Mac. I hope this helped you making the best out of two worlds.
