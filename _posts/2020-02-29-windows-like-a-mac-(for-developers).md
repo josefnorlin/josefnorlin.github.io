@@ -6,7 +6,7 @@ categories: tech
 image:  2020-02-29-windows-like-a-mac-(for-developers).png
 comments: true
 ---
-In my experience, Macs are great but expensive, Hackintosh too much work and Linux lacks Adobe's Creative Suite. That's why I present you with this guide to make Windows work more like a Mac.
+In my experience, Macs are great but expensive, Hackintosh too much work and Linux lacks Adobe's Creative Suite. That's why I present you with this guide to make Windows work more like a Mac. Following all the steps your PC keybindings will be more like your Mac's, you'll get a powerful Unix-terminal using Oh My Zsh working with Visual Studio Code, a Spotlight/Alfred-like-launcher and a better way to take screenshots. All-in-all your Windows PC will work a lot more like your Mac.
 
 ## Keybindings
 The biggest difference for the keyboard between Mac and PC is that the Cmd key in Mac does what the Ctrl key in Windows does (and they have switched places too). So the first thing to do is remap them:
@@ -223,14 +223,14 @@ If you like the Cmd + Space launcher in Mac you want to try Wox for Windows whic
     ![Wox instead of Spotlight Search on Cmd+Space](/images/2020-02-29-wox.png)
 
 ## Screenshot replacement
-Mac's new screenshot tool is a lot greater than Windows PrintScreen + Paint, Snipping Tool and Snip & Sketch in my opinion. But once I started using Lightshot I could see it was a lot closer, and even better in some use cases. Installing it and changing it's keybindings makes you feel right a lot more convenient in Windows.
+Mac's new screenshot tool is a lot greater than Windows PrintScreen + Paint, Snipping Tool and Snip & Sketch in my opinion. But once I started using Lightshot I could see it was a lot closer and even better in some use cases. Installing it and changing its keybindings makes you feel right a lot more convenient in Windows.
 
 1. Download and install Lightshot from [here](https://app.prntscr.com/en/download.html)
-2. Once installed you can change Default hotkey to "Ctrl + 4" and Instant save of the fullscreen to "Ctrl + 5" to mimick the Mac behaviour as much as possible.
+2. Once installed you can change Default hotkey to "Ctrl + 4" and Instant save of the fullscreen to "Ctrl + 5" to mimic the Mac behavior as much as possible.
 3. Try your new screenshot tool by pressing Ctrl + 4 and once you edited how you want it you can just copy it with Ctrl + C and you're done.
 
     ![Lightshot screenshot](/images/2020-02-29-lightshot.png)
 
 
 ## To conclude...
-It's a little bit tricky to get everything working as you want but with a little tweaking Windows can act mostly like your Mac. I hope this helped you making the best out of two worlds.
+It's a little bit tricky to get everything working as you want but with a little tweaking Windows can act mostly like your Mac. Through this, your keybindings, WSL + Oh My Zsh in Mircrosoft's Terminal, better screenshot tool and a Spotlight/Alfred like launcher will be familiar to your Mac workflow§. I hope this helped you get the best out of two worlds.
